@@ -1,0 +1,114 @@
+[
+  {
+    "ID": "c:main.c@215@macro@Black",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "Black",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "F:\\ACAD\\CS\\ES\\Lab-1\\main.c"
+    },
+    "name": "Black",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@241@macro@Red",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "Red",
+    "location": {
+      "column": "9",
+      "line": "8",
+      "path": "F:\\ACAD\\CS\\ES\\Lab-1\\main.c"
+    },
+    "name": "Red",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@265@macro@Blue",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "Blue",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "F:\\ACAD\\CS\\ES\\Lab-1\\main.c"
+    },
+    "name": "Blue",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@290@macro@Green",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "Green",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "F:\\ACAD\\CS\\ES\\Lab-1\\main.c"
+    },
+    "name": "Green",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delay_function",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void delay_function(int)",
+    "location": {
+      "column": "6",
+      "line": "12",
+      "path": "F:\\ACAD\\CS\\ES\\Lab-1\\main.c"
+    },
+    "name": "delay_function",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@343@F@delay_function@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "7",
+      "line": "14",
+      "path": "F:\\ACAD\\CS\\ES\\Lab-1\\main.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@343@F@delay_function@j",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "j",
+    "location": {
+      "column": "10",
+      "line": "14",
+      "path": "F:\\ACAD\\CS\\ES\\Lab-1\\main.c"
+    },
+    "name": "j",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "20",
+      "path": "F:\\ACAD\\CS\\ES\\Lab-1\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  }
+]
