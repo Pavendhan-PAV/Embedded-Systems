@@ -1,0 +1,198 @@
+[
+  {
+    "ID": "c:main.c@8@macro@SYSCTL_RCGCGPIO_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SYSCTL_RCGCGPIO_R",
+    "location": {
+      "column": "9",
+      "line": "1",
+      "path": "F:\\ACAD\\CS\\ES\\Practice\\Lab-2\\main.c"
+    },
+    "name": "SYSCTL_RCGCGPIO_R",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@77@macro@GPIO_PORTF_DATA_RD",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTF_DATA_RD",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "F:\\ACAD\\CS\\ES\\Practice\\Lab-2\\main.c"
+    },
+    "name": "GPIO_PORTF_DATA_RD",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@147@macro@GPIO_PORTF_DATA_WR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTF_DATA_WR",
+    "location": {
+      "column": "9",
+      "line": "3",
+      "path": "F:\\ACAD\\CS\\ES\\Practice\\Lab-2\\main.c"
+    },
+    "name": "GPIO_PORTF_DATA_WR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@217@macro@GPIO_PORTF_DIR_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTF_DIR_R",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "F:\\ACAD\\CS\\ES\\Practice\\Lab-2\\main.c"
+    },
+    "name": "GPIO_PORTF_DIR_R",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@285@macro@GPIO_PORTF_DEN_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTF_DEN_R",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "F:\\ACAD\\CS\\ES\\Practice\\Lab-2\\main.c"
+    },
+    "name": "GPIO_PORTF_DEN_R",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@353@macro@GPIO_PORTF_PUR_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTF_PUR_R",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "F:\\ACAD\\CS\\ES\\Practice\\Lab-2\\main.c"
+    },
+    "name": "GPIO_PORTF_PUR_R",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@423@macro@SYSCTL_RCGC2_GPIOF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SYSCTL_RCGC2_GPIOF",
+    "location": {
+      "column": "9",
+      "line": "8",
+      "path": "F:\\ACAD\\CS\\ES\\Practice\\Lab-2\\main.c"
+    },
+    "name": "SYSCTL_RCGC2_GPIOF",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@458@macro@GPIO_PORTF_PIN3_EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTF_PIN3_EN",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "F:\\ACAD\\CS\\ES\\Practice\\Lab-2\\main.c"
+    },
+    "name": "GPIO_PORTF_PIN3_EN",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@491@macro@GPIO_PORTF_PIN4_EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTF_PIN4_EN",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "F:\\ACAD\\CS\\ES\\Practice\\Lab-2\\main.c"
+    },
+    "name": "GPIO_PORTF_PIN4_EN",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@524@macro@SYSTEM_CLOC_FREQUENCY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SYSTEM_CLOC_FREQUENCY",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "F:\\ACAD\\CS\\ES\\Practice\\Lab-2\\main.c"
+    },
+    "name": "SYSTEM_CLOC_FREQUENCY",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@566@macro@DELAY_DEBOUNCE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DELAY_DEBOUNCE",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "F:\\ACAD\\CS\\ES\\Practice\\Lab-2\\main.c"
+    },
+    "name": "DELAY_DEBOUNCE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Delay",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Delay(unsigned long)",
+    "location": {
+      "column": "6",
+      "line": "15",
+      "path": "F:\\ACAD\\CS\\ES\\Practice\\Lab-2\\main.c"
+    },
+    "name": "Delay",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@652@F@Delay@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "16",
+      "line": "17",
+      "path": "F:\\ACAD\\CS\\ES\\Practice\\Lab-2\\main.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "22",
+      "path": "F:\\ACAD\\CS\\ES\\Practice\\Lab-2\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  }
+]

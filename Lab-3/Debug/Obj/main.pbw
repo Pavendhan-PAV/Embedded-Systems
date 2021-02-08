@@ -1,0 +1,72 @@
+[
+  {
+    "ID": "c:main.c@8@macro@BUTTON_PRESSED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BUTTON_PRESSED",
+    "location": {
+      "column": "9",
+      "line": "1",
+      "path": "F:\\ACAD\\CS\\ES\\Practice\\Lab-3\\main.c"
+    },
+    "name": "BUTTON_PRESSED",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@37@macro@switch2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "switch2",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "F:\\ACAD\\CS\\ES\\Practice\\Lab-3\\main.c"
+    },
+    "name": "switch2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@79@macro@switch1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "switch1",
+    "location": {
+      "column": "9",
+      "line": "3",
+      "path": "F:\\ACAD\\CS\\ES\\Practice\\Lab-3\\main.c"
+    },
+    "name": "switch1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "5",
+      "path": "F:\\ACAD\\CS\\ES\\Practice\\Lab-3\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@885@F@main@count",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "count",
+    "location": {
+      "column": "7",
+      "line": "17",
+      "path": "F:\\ACAD\\CS\\ES\\Practice\\Lab-3\\main.c"
+    },
+    "name": "count",
+    "origin": "project_file",
+    "scope": null
+  }
+]
