@@ -1,0 +1,254 @@
+[
+  {
+    "ID": "c:B.c@8@macro@SYSCTL_RCGCGPIO_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SYSCTL_RCGCGPIO_R",
+    "location": {
+      "column": "9",
+      "line": "1",
+      "path": "F:\\ACAD\\CS\\Embedded Sytems (ES)\\Practice\\Lab-6\\B\\B.c"
+    },
+    "name": "SYSCTL_RCGCGPIO_R",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:B.c@77@macro@SYSCTL_RCGCADC_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SYSCTL_RCGCADC_R",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "F:\\ACAD\\CS\\Embedded Sytems (ES)\\Practice\\Lab-6\\B\\B.c"
+    },
+    "name": "SYSCTL_RCGCADC_R",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:B.c@147@macro@GPIO_PORTF_DIR_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTF_DIR_R",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "F:\\ACAD\\CS\\Embedded Sytems (ES)\\Practice\\Lab-6\\B\\B.c"
+    },
+    "name": "GPIO_PORTF_DIR_R",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:B.c@230@macro@GPIO_PORTF_DEN_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTF_DEN_R",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "F:\\ACAD\\CS\\Embedded Sytems (ES)\\Practice\\Lab-6\\B\\B.c"
+    },
+    "name": "GPIO_PORTF_DEN_R",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:B.c@298@macro@GPIO_PORTF_DATA_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTF_DATA_R",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "F:\\ACAD\\CS\\Embedded Sytems (ES)\\Practice\\Lab-6\\B\\B.c"
+    },
+    "name": "GPIO_PORTF_DATA_R",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:B.c@369@macro@GPIO_PORTE_AFSEL_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTE_AFSEL_R",
+    "location": {
+      "column": "9",
+      "line": "8",
+      "path": "F:\\ACAD\\CS\\Embedded Sytems (ES)\\Practice\\Lab-6\\B\\B.c"
+    },
+    "name": "GPIO_PORTE_AFSEL_R",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:B.c@452@macro@GPIO_PORTE_DIR_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTE_DIR_R",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "F:\\ACAD\\CS\\Embedded Sytems (ES)\\Practice\\Lab-6\\B\\B.c"
+    },
+    "name": "GPIO_PORTE_DIR_R",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:B.c@520@macro@GPIO_PORTE_AMSEL_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTE_AMSEL_R",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "F:\\ACAD\\CS\\Embedded Sytems (ES)\\Practice\\Lab-6\\B\\B.c"
+    },
+    "name": "GPIO_PORTE_AMSEL_R",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:B.c@592@macro@ADC0_ACTSS_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_ACTSS_R",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "F:\\ACAD\\CS\\Embedded Sytems (ES)\\Practice\\Lab-6\\B\\B.c"
+    },
+    "name": "ADC0_ACTSS_R",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:B.c@672@macro@ADC0_EMUX_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_EMUX_R",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "F:\\ACAD\\CS\\Embedded Sytems (ES)\\Practice\\Lab-6\\B\\B.c"
+    },
+    "name": "ADC0_EMUX_R",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:B.c@735@macro@ADC0_SSMUX3_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_SSMUX3_R",
+    "location": {
+      "column": "9",
+      "line": "14",
+      "path": "F:\\ACAD\\CS\\Embedded Sytems (ES)\\Practice\\Lab-6\\B\\B.c"
+    },
+    "name": "ADC0_SSMUX3_R",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:B.c@800@macro@ADC0_SSCTL3_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_SSCTL3_R",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "F:\\ACAD\\CS\\Embedded Sytems (ES)\\Practice\\Lab-6\\B\\B.c"
+    },
+    "name": "ADC0_SSCTL3_R",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:B.c@865@macro@ADC0_PSSI_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_PSSI_R",
+    "location": {
+      "column": "9",
+      "line": "16",
+      "path": "F:\\ACAD\\CS\\Embedded Sytems (ES)\\Practice\\Lab-6\\B\\B.c"
+    },
+    "name": "ADC0_PSSI_R",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:B.c@928@macro@ADC0_RIS_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_RIS_R",
+    "location": {
+      "column": "9",
+      "line": "17",
+      "path": "F:\\ACAD\\CS\\Embedded Sytems (ES)\\Practice\\Lab-6\\B\\B.c"
+    },
+    "name": "ADC0_RIS_R",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:B.c@990@macro@ADC0_SSFIFO3_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_SSFIFO3_R",
+    "location": {
+      "column": "9",
+      "line": "18",
+      "path": "F:\\ACAD\\CS\\Embedded Sytems (ES)\\Practice\\Lab-6\\B\\B.c"
+    },
+    "name": "ADC0_SSFIFO3_R",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:B.c@1056@macro@ADC0_ISC_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_ISC_R",
+    "location": {
+      "column": "9",
+      "line": "19",
+      "path": "F:\\ACAD\\CS\\Embedded Sytems (ES)\\Practice\\Lab-6\\B\\B.c"
+    },
+    "name": "ADC0_ISC_R",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "21",
+      "path": "F:\\ACAD\\CS\\Embedded Sytems (ES)\\Practice\\Lab-6\\B\\B.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:B.c@2059@F@main@result",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "result",
+    "location": {
+      "column": "16",
+      "line": "38",
+      "path": "F:\\ACAD\\CS\\Embedded Sytems (ES)\\Practice\\Lab-6\\B\\B.c"
+    },
+    "name": "result",
+    "origin": "project_file",
+    "scope": null
+  }
+]
