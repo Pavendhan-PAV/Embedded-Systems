@@ -1,0 +1,190 @@
+###############################################################################
+#
+# IAR ELF Linker V8.50.9.278/W32 for ARM                  30/Mar/2021  20:33:41
+# Copyright 2007-2020 IAR Systems AB.
+#
+#    Output file  =
+#        F:\ACAD\CS\Embedded Sytems (ES)\Practice\Lab-8\Debug\Exe\8.out
+#    Map file     =
+#        F:\ACAD\CS\Embedded Sytems (ES)\Practice\Lab-8\Debug\List\8.map
+#    Command line =
+#        -f C:\Users\User\AppData\Local\Temp\EW5899.tmp ("F:\ACAD\CS\Embedded
+#        Sytems (ES)\Practice\Lab-8\Debug\Obj\main.o" --no_out_extension -o
+#        "F:\ACAD\CS\Embedded Sytems (ES)\Practice\Lab-8\Debug\Exe\8.out"
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map "F:\ACAD\CS\Embedded Sytems
+#        (ES)\Practice\Lab-8\Debug\List\8.map" --config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\config\linker\TexasInstruments\TM4C123GH6.icf" --semihosting
+#        --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = Basic
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x3'ffff] { ro };
+define block CSTACK with size = 4K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'7fff] {
+          rw, block CSTACK, block HEAP };
+
+No sections matched the following patterns:
+
+  rw  in "P2"
+
+
+  Section   Kind         Address    Size  Object
+  -------   ----         -------    ----  ------
+"A0":                               0x40
+  .intvec   ro code          0x0    0x40  vector_table_M.o [3]
+                          - 0x40    0x40
+
+"P1":                              0x658
+  .text     ro code         0x40   0x434  main.o [1]
+  .text     ro code        0x474    0x56  ABImemcpy_unaligned.o [3]
+  .text     ro code        0x4ca     0x2  vector_table_M.o [3]
+  .rodata   const          0x4cc    0x30  main.o [1]
+  .rodata   const          0x4fc    0x28  main.o [1]
+  .rodata   const          0x524    0x24  main.o [1]
+  .rodata   const          0x548    0x20  main.o [1]
+  .text     ro code        0x568    0x1e  cmain.o [3]
+  .text     ro code        0x586     0x4  low_level_init.o [2]
+  .text     ro code        0x58a     0x4  exit.o [2]
+  .text     ro code        0x590     0xa  cexit.o [3]
+  .text     ro code        0x59c    0x14  exit.o [4]
+  .rodata   const          0x5b0    0x1c  main.o [1]
+  .text     ro code        0x5cc    0x1c  cstartup_M.o [3]
+  .rodata   const          0x5e8    0x18  main.o [1]
+  .rodata   const          0x600    0x18  main.o [1]
+  .rodata   const          0x618    0x14  main.o [1]
+  .rodata   const          0x62c    0x14  main.o [1]
+  .rodata   const          0x640    0x14  main.o [1]
+  .rodata   const          0x654    0x10  main.o [1]
+  .rodata   const          0x664     0xc  main.o [1]
+  .rodata   const          0x670     0xc  main.o [1]
+  .rodata   const          0x67c     0x8  main.o [1]
+  .rodata   const          0x684     0x8  main.o [1]
+  .rodata   const          0x68c     0x4  main.o [1]
+  .rodata   const          0x690     0x4  main.o [1]
+  .rodata   const          0x694     0x4  main.o [1]
+                         - 0x698   0x658
+
+"P2":                             0x1000
+  CSTACK             0x2000'0000  0x1000  <Block>
+    CSTACK  uninit   0x2000'0000  0x1000  <Block tail>
+                   - 0x2000'1000  0x1000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+        0x698     0x3'ffff  0x3'f968
+  0x2000'1000  0x2000'7fff    0x7000
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+command line/config:
+    ------------------------------------------------
+    Total:
+
+F:\ACAD\CS\Embedded Sytems (ES)\Practice\Lab-8\Debug\Obj: [1]
+    main.o                   1'076      360
+    ------------------------------------------------
+    Total:                   1'076      360
+
+dl7M_tln.a: [2]
+    exit.o                       4
+    low_level_init.o             4
+    ------------------------------------------------
+    Total:                       8
+
+rt7M_tl.a: [3]
+    ABImemcpy_unaligned.o       86
+    cexit.o                     10
+    cmain.o                     30
+    cstartup_M.o                28
+    vector_table_M.o            66
+    ------------------------------------------------
+    Total:                     220
+
+shb_l.a: [4]
+    exit.o                      20
+    ------------------------------------------------
+    Total:                      20
+
+    Gaps                         4
+    Linker created                             4'096
+----------------------------------------------------
+    Grand Total:             1'328      360    4'096
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+?main                         0x569         Code  Gb  cmain.o [3]
+CSTACK$$Base            0x2000'0000          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'1000          --   Gb  - Linker created -
+Region$$Table$$Base             0x0          --   Gb  - Linker created -
+Region$$Table$$Limit            0x0          --   Gb  - Linker created -
+__cmain                       0x569         Code  Gb  cmain.o [3]
+__exit                        0x59d   0x14  Code  Gb  exit.o [4]
+__iar_program_start           0x5cd         Code  Gb  cstartup_M.o [3]
+__iar_unaligned_memcpy4
+                              0x475         Code  Gb  ABImemcpy_unaligned.o [3]
+__iar_unaligned_memcpy8
+                              0x475         Code  Gb  ABImemcpy_unaligned.o [3]
+__low_level_init              0x587    0x4  Code  Gb  low_level_init.o [2]
+__vector_table                  0x0         Data  Gb  vector_table_M.o [3]
+_call_main                    0x575         Code  Gb  cmain.o [3]
+_exit                         0x591         Code  Gb  cexit.o [3]
+_main                         0x57f         Code  Gb  cmain.o [3]
+delayMs                        0x41   0x1a  Code  Gb  main.o [1]
+exit                          0x58b    0x4  Code  Gb  exit.o [2]
+main                           0xff  0x29c  Code  Gb  main.o [1]
+printChar                      0xa1   0x44  Code  Gb  main.o [1]
+printString                    0xe5   0x1a  Code  Gb  main.o [1]
+readChar                       0x5b   0x46  Code  Gb  main.o [1]
+
+
+[1] = F:\ACAD\CS\Embedded Sytems (ES)\Practice\Lab-8\Debug\Obj
+[2] = dl7M_tln.a
+[3] = rt7M_tl.a
+[4] = shb_l.a
+
+  1'328 bytes of readonly  code memory
+    360 bytes of readonly  data memory
+  4'096 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
